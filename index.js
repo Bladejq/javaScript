@@ -44,3 +44,12 @@ index_sum();
 // 5 тапсырма
 const arr = [1,2,3,4,5];
 console.log(arr.reverse());
+
+let a = [1, 2, 3, 4, 5];
+for(let i = 0; i < a.length;i++) {
+    console.log(a[i]);
+}
+
+for(let i = a.length - 1; i >= 0; i--) {
+    console.log(a[i]);
+}
