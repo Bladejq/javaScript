@@ -14,9 +14,9 @@ console.log(clothes);
 
 // 2 тапсырма
 
-LetterFinder = () => {
-    console.log("Word");
-    console.log("Match");
+LetterFinder = (Word, Match) => {
+    let word = "word";
+    let match = "Match"
 }
 LetterFinder()
 
