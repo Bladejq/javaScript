@@ -22,19 +22,15 @@ for(let i=2; i<=9; i++) {
 console.log(sum);
 
 // 3 твпсырма 
-a = [33,44,55,0,11,7,8,9];
+c = [33,44,55,0,11,7,8,9];
 
-function a_sum() {
-    let s = 0;
-    let s2 = 1;
-    for(let i=0; i<a.length;i++) {
-        if(a[i] = 0) {
-            s2 *= a;
-        }else{
-            s += a;
-        }
+let qos = 0;
+let kob = 1;
+let b;
+for (var i = 0; i < c.length; i++) {
+    a = c[i];
+    if (a===0){
+        break;
     }
-    console.log(s);
-    console.log(s2);
+    qos +=a;
 }
-a_sum();
