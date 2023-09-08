@@ -48,7 +48,35 @@ for(let i = masive.length - 1; i >= 0; i--) {
     console.log(masive[i]);
 }
 
-// 5 тапсырма
+
+// 2Тапсырма
+
+var first_num = [1, 2, 3];
+var second_num = [4, 5];
+ 
+for (let i of second_num) {
+    first_num.push(i);
+}
+ 
+console.log(first_num);
+
+// 3 Тапсырма
+let shop = {
+    "Name":"Alma",
+    "Cena":"570tg",
+    "salmaq":"3kg"
+}
+for(i in shop){
+    console.log(i + " " + shop[i]);
+}
+
+// 4 Тапсырма
+
+let massive = ["Tom", "Number", "Car", "Lambargini"]
+console.log(massive.pop("CS:GO"));
+
+let cityInput = prompt("Қала атауын жазыңыз");
+
 let city = {
     "city1":"Almaty",
     "city2":"Astana",
@@ -65,4 +93,16 @@ let regionAstana = {
 }
 let regionAqtau = {
     "region1":"Tasilinskii"
+}
+
+for(let i in regionAlmaty) {
+if (cityInput === city.city1) {
+        alert(regionAlmaty[i]);
+    } else if (cityInput === city.city2){
+        alert(regionAstana[i]);
+    } else if (cityInput === city.city3) {
+        alert(regionAqtau[i]);
+} else {
+    alert('Қате');
+}
 }
